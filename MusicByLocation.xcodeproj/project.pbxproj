@@ -14,6 +14,7 @@
 		32DF77032BAB8B9B00A67014 /* MusicByLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF77022BAB8B9B00A67014 /* MusicByLocationTests.swift */; };
 		32DF770D2BAB8B9B00A67014 /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF770C2BAB8B9B00A67014 /* MusicByLocationUITests.swift */; };
 		32DF770F2BAB8B9B00A67014 /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF770E2BAB8B9B00A67014 /* MusicByLocationUITestsLaunchTests.swift */; };
+		32DF771C2BAB8DA600A67014 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF771B2BAB8DA600A67014 /* LocationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		32DF77082BAB8B9B00A67014 /* MusicByLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicByLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF770C2BAB8B9B00A67014 /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		32DF770E2BAB8B9B00A67014 /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32DF771B2BAB8DA600A67014 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				32DF76F12BAB8B9800A67014 /* MusicByLocationApp.swift */,
-				32DF76F32BAB8B9800A67014 /* ContentView.swift */,
+				32DF771B2BAB8DA600A67014 /* LocationHandler.swift */,
 				32DF76F52BAB8B9A00A67014 /* Assets.xcassets */,
 				32DF76F72BAB8B9A00A67014 /* Preview Content */,
 			);
@@ -105,6 +107,7 @@
 		32DF76F72BAB8B9A00A67014 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				32DF76F32BAB8B9800A67014 /* ContentView.swift */,
 				32DF76F82BAB8B9A00A67014 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DF771C2BAB8DA600A67014 /* LocationHandler.swift in Sources */,
 				32DF76F42BAB8B9800A67014 /* ContentView.swift in Sources */,
 				32DF76F22BAB8B9800A67014 /* MusicByLocationApp.swift in Sources */,
 			);
